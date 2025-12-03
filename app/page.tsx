@@ -415,12 +415,12 @@ export default function HomePage() {
           <div className="bg-slate-800/75 border border-slate-600/60 rounded-3xl p-6 lg:p-8 text-sm md:text-base text-slate-200 space-y-4">
             <h3 className="text-lg md:text-xl font-bold text-white mb-4 flex items-center gap-3">
               <BookOpen className="h-6 w-6 text-sky-400" />
-              Documents Usually Required
+              Documents Required
             </h3>
-            <p className="text-slate-300 mb-4">
+            {/* <p className="text-slate-300 mb-4">
               Exact documents will be confirmed by the school office based on
               class and latest guidelines.
-            </p>
+            </p> */}
             <ul className="space-y-2">
               <li>• Birth Certificate / Aadhaar of the student</li>
               <li>• Previous school report card (for higher classes)</li>
@@ -457,7 +457,7 @@ export default function HomePage() {
                 For admission queries, please use the enquiry form
               </span>
             </div>
-            <div className="flex gap-4">
+            {/* <div className="flex gap-4">
               <Link
                 href="/privacy"
                 className="hover:text-sky-300 transition-colors"
@@ -482,7 +482,7 @@ export default function HomePage() {
               >
                 Instagram
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="border-t border-slate-800 mt-8 pt-4 text-center text-[11px] text-slate-500">
