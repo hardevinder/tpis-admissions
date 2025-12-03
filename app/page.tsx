@@ -218,10 +218,10 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-          <p className="mt-2 text-[10px] text-slate-500 text-center">
+          {/* <p className="mt-2 text-[10px] text-slate-500 text-center">
             *Figures indicative as shared by school. Exact numbers may vary by
             session.
-          </p>
+          </p> */}
         </div>
       </section>
 
